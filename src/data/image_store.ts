@@ -1,6 +1,6 @@
 export const ALL_IMAGES = [
     {
-        id: 3,
+        id: 1,
         url: 'https://bar.com/img1',
         author: 'Adam Ops'
     },
@@ -10,7 +10,7 @@ export const ALL_IMAGES = [
         author: 'Program Jim'
     },
     {
-        id: 1,
+        id: 3,
         url: 'https://foo.com/img1',
         author: 'Dev Simpson'
     }
