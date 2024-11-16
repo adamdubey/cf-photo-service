@@ -17,6 +17,29 @@ $ npm run dev
 
 ---
 
+## Localhost Development
+
+- Running Tests:
+
+```sh
+$ npm run test
+```
+
+- Creating & Running DB Migrations:
+
+```sh
+# create migration
+$ npx wrangler d1 migrations create <DB_NAME> <MIGRATION_NAME>
+
+# applying migration to LOCALHOST DB
+$ npx wrangler d1 migrations apply <DB_NAME> --local
+
+# applying migration to PROD DB
+$ npx wrangler d1 migrations apply <DB_NAME> --remote
+```
+
+---
+
 ## Deployment
 
 ```sh
