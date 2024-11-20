@@ -34,6 +34,10 @@ compatibility_flags = ["nodejs_compat"]
 # [browser]
 # binding = "MY_BROWSER"
 
+services = [
+    { binding = "AUTH", service = "authentication-service" }
+]
+
 # Bind a D1 database. D1 is Cloudflare’s native serverless SQL database.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#d1-databases
 [[d1_databases]]
@@ -106,3 +110,4 @@ database_id = "842609d8-8c62-47df-929c-c2937f15bb3f"
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
+
